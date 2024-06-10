@@ -1,0 +1,5 @@
+res://scenes/Zones/Zone 1.tscn
+res://scenes/Player/Player.tscn
+res://scenes/Player/PlayerMain.gd
+res://scenes/Player/scripts/PlayerIdle.gd
+res://scenes/Player/scripts/PlayerWalk.gd
