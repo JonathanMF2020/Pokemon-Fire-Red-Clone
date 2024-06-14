@@ -4,7 +4,12 @@ class_name CharacterBase
 @export var sprite : AnimatedSprite2D
 @export var flipped_horizontal : bool
 
-var TILE_SIZE = 16
+const TILE_SIZE = 16
+const WALK_SPEED = 4
+const RUN_SPEED = 6
+const BIKE_SPEED = 7
+
+var MOVE_SPEED = WALK_SPEED
 
 func _ready():
 	pass

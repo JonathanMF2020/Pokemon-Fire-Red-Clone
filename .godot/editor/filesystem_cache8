@@ -1,57 +1,56 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718188841
-export_presets.cfg::TextFile::-1::1714312888::0::1::::<><>::
-icon.svg::CompressedTexture2D::4489225267919774028::1708015471::1708015471::1::::<><>::
-README.md::TextFile::-1::1708015471::0::1::::<><>::
-::res://assets/::1718188116
-::res://assets/sprites/::1708015471
-::res://assets/sprites/player_sprites/::1708015471
-Game Boy Advance - Pokemon FireRed LeafGreen - Hero & Heroine.png::CompressedTexture2D::2392569627754411196::1708015471::1708015471::1::::<><>::
-noah_the_producer.png::CompressedTexture2D::7141880340985893883::1708015471::1708015471::1::::<><>::
-player_sprint_transparent.png::CompressedTexture2D::1479770339836547168::1708015471::1708015471::1::::<><>::
-player_walk.png::CompressedTexture2D::2014588971592944897::1708015471::1708015471::1::::<><>::
-::res://assets/tilesets/::1708015471
-::res://assets/tilesets/Animated/::1708039606
-doors1.png::CompressedTexture2D::8132378710081537855::1708015471::1708015471::1::::<><>::
-doors2.png::CompressedTexture2D::5152243561220452390::1708015471::1708015471::1::::<><>::
-doors3.png::CompressedTexture2D::7559045803713459780::1708015471::1708015471::1::::<><>::
-doors4.png::CompressedTexture2D::6078030478084670059::1708015471::1708015471::1::::<><>::
-doors5.png::CompressedTexture2D::2933213775832534178::1708015471::1708015471::1::::<><>::
-doors6.png::CompressedTexture2D::6246916933154990673::1708015471::1708015471::1::::<><>::
-doors7.png::CompressedTexture2D::215863231782979366::1708015471::1708015471::1::::<><>::
-doors8.png::CompressedTexture2D::889885190102739093::1708015471::1708015471::1::::<><>::
-doors9.png::CompressedTexture2D::8139551944561214832::1708015471::1708015471::1::::<><>::
-FlowersAnimated.png::CompressedTexture2D::6900574218291540540::1708015471::1708015471::1::::<><>::
-GrassAnimated.png::CompressedTexture2D::4929409718464541295::1708039598::1708039606::1::::<><>::
-SeaRockAnimated.png::CompressedTexture2D::5827361097689764014::1708015471::1708015471::1::::<><>::
-TransparentTree.png::CompressedTexture2D::2992667862500231539::1708015471::1708015471::1::::<><>::
-WaterAnimated.png::CompressedTexture2D::1383716435177744030::1708015471::1708015471::1::::<><>::
-::res://assets/tilesets/Maps/::1708015471
-CINNABAR ISLAND.png::CompressedTexture2D::7284229411632801408::1708015471::1708015471::1::::<><>::
-PALLET TOWN.png::CompressedTexture2D::8675626180860902718::1708015471::1708015471::1::::<><>::
-ROUTE 1.png::CompressedTexture2D::4779429165975140563::1708015471::1708015471::1::::<><>::
-ROUTE 2.png::CompressedTexture2D::1763317529379299715::1708015471::1708015471::1::::<><>::
-ROUTE 20.png::CompressedTexture2D::1173802363434137788::1708015471::1708015471::1::::<><>::
-ROUTE 21 (2).png::CompressedTexture2D::6670135155254019044::1708015471::1708015471::1::::<><>::
-ROUTE 21.png::CompressedTexture2D::5508910231992598167::1708015471::1708015471::1::::<><>::
-ROUTE 22.png::CompressedTexture2D::3720023968397954617::1708015471::1708015471::1::::<><>::
-VIRIDIAN CITY.png::CompressedTexture2D::5457390397378230637::1708015471::1708015471::1::::<><>::
-::res://assets/tilesets/Objects/::1708015471
-Building Tileset.png::CompressedTexture2D::1881016995681645969::1708015471::1708015471::1::::<><>::
-Tilesheet Animated.png::CompressedTexture2D::312128888259760873::1708015471::1708015471::1::::<><>::
-Titleset 2.png::CompressedTexture2D::7060481206340906049::1708015471::1708015471::1::::<><>::
-::res://scenes/::1718188841
-player_main.gd::GDScript::-1::1718188631::0::1::::<>Node<>::
-::res://scenes/Misc/::1717982275
-::res://scenes/Player/::1718188790
-Player.tscn::PackedScene::6150281678381997008::1718188790::0::1::::<><>::uid://3x48r32m8hq4::::res://assets/sprites/player_sprites/player_walk.png<>res://scripts/FiniteStateMachine.gd<>res://scenes/Player/scripts/PlayerIdle.gd<>res://scenes/Player/scripts/PlayerWalk.gd<>uid://vc2updq1oyfg::::res://assets/sprites/player_sprites/player_sprint_transparent.png
-::res://scenes/Player/scripts/::1718188841
-player_idle.gd::GDScript::-1::1718188790::0::1::::PlayerIdle<>State<>::
-player_walk.gd::GDScript::-1::1718188563::0::1::::<>Node<>::
-::res://scenes/Zones/::1718188274
-Zone 1.tscn::PackedScene::7204620946763364705::1718188274::0::1::::<><>::uid://cadgradfjecfr::::res://assets/tilesets/Maps/ROUTE 1.png<>uid://dvuskb2fyoirm::::res://assets/tilesets/Maps/PALLET TOWN.png<>uid://12gcs2xkjybh::::res://assets/tilesets/Objects/Building Tileset.png<>uid://c5kxpji6dmbno::::res://assets/tilesets/Animated/FlowersAnimated.png<>uid://cj0uomolpyc34::::res://assets/tilesets/Maps/VIRIDIAN CITY.png<>uid://ckqs7glqt14v0::::res://assets/tilesets/Maps/ROUTE 21.png<>uid://qyumatixmtkm::::res://assets/tilesets/Maps/ROUTE 20.png<>uid://tyjuwkea503s::::res://assets/tilesets/Animated/WaterAnimated.png<>uid://c7ufdgtnvu1td::::res://assets/tilesets/Objects/Titleset 2.png<>uid://db1sgupw3p1oe::::res://assets/tilesets/Maps/CINNABAR ISLAND.png<>uid://bivw2jv6x1s7l::::res://assets/tilesets/Animated/TransparentTree.png<>uid://c2bcffec8wtma::::res://assets/tilesets/Maps/ROUTE 21 (2).png<>uid://ctviighrn1v1i::::res://scenes/Player/Player.tscn<>uid://btaaispob5qld::::res://assets/tilesets/Maps/ROUTE 22.png<>uid://0eft15jdbtkl::::res://assets/tilesets/Maps/ROUTE 2.png<>uid://cch3wmq22oxpv::::res://assets/tilesets/Animated/GrassAnimated.png
-::res://scripts/::1718188790
-CharacterBase.gd::GDScript::-1::1718188790::0::1::::CharacterBase<>CharacterBody2D<>::
-FiniteStateMachine.gd::GDScript::-1::1708015471::0::1::::StateMachine<>Node<>::
-SpriteBase.gd::GDScript::-1::1708015471::0::1::::SpriteBase<>CharacterBody2D<>::
-State.gd::GDScript::-1::1708015471::0::1::::State<>Node<>::
+::res://::1718335271
+export_presets.cfg::TextFile::-1::1718202704::0::1::::<><>::
+icon.svg::CompressedTexture2D::4489225267919774028::1718202704::1718202704::1::::<><>::
+README.md::TextFile::-1::1718202704::0::1::::<><>::
+::res://assets/::1718202704
+::res://assets/sprites/::1718202704
+::res://assets/sprites/player_sprites/::1718202704
+Game Boy Advance - Pokemon FireRed LeafGreen - Hero & Heroine.png::CompressedTexture2D::2392569627754411196::1718202704::1718202704::1::::<><>::
+noah_the_producer.png::CompressedTexture2D::7141880340985893883::1718202704::1718202704::1::::<><>::
+player_sprint_transparent.png::CompressedTexture2D::1479770339836547168::1718202704::1718202704::1::::<><>::
+player_walk.png::CompressedTexture2D::2014588971592944897::1718202704::1718202704::1::::<><>::
+::res://assets/tilesets/::1718202704
+::res://assets/tilesets/Animated/::1718202704
+doors1.png::CompressedTexture2D::8132378710081537855::1718202704::1718202704::1::::<><>::
+doors2.png::CompressedTexture2D::5152243561220452390::1718202704::1718202704::1::::<><>::
+doors3.png::CompressedTexture2D::7559045803713459780::1718202704::1718202704::1::::<><>::
+doors4.png::CompressedTexture2D::6078030478084670059::1718202704::1718202704::1::::<><>::
+doors5.png::CompressedTexture2D::2933213775832534178::1718202704::1718202704::1::::<><>::
+doors6.png::CompressedTexture2D::6246916933154990673::1718202704::1718202704::1::::<><>::
+doors7.png::CompressedTexture2D::215863231782979366::1718202704::1718202704::1::::<><>::
+doors8.png::CompressedTexture2D::889885190102739093::1718202704::1718202704::1::::<><>::
+doors9.png::CompressedTexture2D::8139551944561214832::1718202704::1718202704::1::::<><>::
+FlowersAnimated.png::CompressedTexture2D::6900574218291540540::1718202704::1718202704::1::::<><>::
+GrassAnimated.png::CompressedTexture2D::4929409718464541295::1718202704::1718202704::1::::<><>::
+SeaRockAnimated.png::CompressedTexture2D::5827361097689764014::1718202704::1718202704::1::::<><>::
+TransparentTree.png::CompressedTexture2D::2992667862500231539::1718202704::1718202704::1::::<><>::
+WaterAnimated.png::CompressedTexture2D::1383716435177744030::1718202704::1718202704::1::::<><>::
+::res://assets/tilesets/Maps/::1718202704
+CINNABAR ISLAND.png::CompressedTexture2D::7284229411632801408::1718202704::1718202704::1::::<><>::
+PALLET TOWN.png::CompressedTexture2D::8675626180860902718::1718202704::1718202704::1::::<><>::
+ROUTE 1.png::CompressedTexture2D::4779429165975140563::1718202704::1718202704::1::::<><>::
+ROUTE 2.png::CompressedTexture2D::1763317529379299715::1718202704::1718202704::1::::<><>::
+ROUTE 20.png::CompressedTexture2D::1173802363434137788::1718202704::1718202704::1::::<><>::
+ROUTE 21 (2).png::CompressedTexture2D::6670135155254019044::1718202704::1718202704::1::::<><>::
+ROUTE 21.png::CompressedTexture2D::5508910231992598167::1718202704::1718202704::1::::<><>::
+ROUTE 22.png::CompressedTexture2D::3720023968397954617::1718202704::1718202704::1::::<><>::
+VIRIDIAN CITY.png::CompressedTexture2D::5457390397378230637::1718202704::1718202704::1::::<><>::
+::res://assets/tilesets/Objects/::1718202704
+Building Tileset.png::CompressedTexture2D::1881016995681645969::1718202704::1718202704::1::::<><>::
+Tilesheet Animated.png::CompressedTexture2D::312128888259760873::1718202704::1718202704::1::::<><>::
+Titleset 2.png::CompressedTexture2D::7060481206340906049::1718202704::1718202704::1::::<><>::
+::res://scenes/::1718202704
+::res://scenes/Player/::1718309997
+Player.tscn::PackedScene::6150281678381997008::1718309997::0::1::::<><>::res://scenes/Player/player_main.gd<>uid://3x48r32m8hq4::::res://assets/sprites/player_sprites/player_walk.png<>res://scenes/Player/scripts/player_idle.gd<>res://scripts/FiniteStateMachine.gd<>res://scenes/Player/scripts/player_walk.gd
+player_main.gd::GDScript::-1::1718309996::0::1::::PlayerMain<>CharacterBase<>::
+::res://scenes/Player/scripts/::1718309996
+player_idle.gd::GDScript::-1::1718293758::0::1::::PlayerIdle<>State<>::
+player_walk.gd::GDScript::-1::1718309996::0::1::::PlayerWalk<>State<>::
+::res://scenes/Zones/::1718309996
+Zone 1.tscn::PackedScene::7204620946763364705::1718309996::0::1::::<><>::uid://cadgradfjecfr::::res://assets/tilesets/Maps/ROUTE 1.png<>uid://dvuskb2fyoirm::::res://assets/tilesets/Maps/PALLET TOWN.png<>uid://12gcs2xkjybh::::res://assets/tilesets/Objects/Building Tileset.png<>uid://c5kxpji6dmbno::::res://assets/tilesets/Animated/FlowersAnimated.png<>uid://cj0uomolpyc34::::res://assets/tilesets/Maps/VIRIDIAN CITY.png<>uid://ckqs7glqt14v0::::res://assets/tilesets/Maps/ROUTE 21.png<>uid://qyumatixmtkm::::res://assets/tilesets/Maps/ROUTE 20.png<>uid://tyjuwkea503s::::res://assets/tilesets/Animated/WaterAnimated.png<>uid://c7ufdgtnvu1td::::res://assets/tilesets/Objects/Titleset 2.png<>uid://db1sgupw3p1oe::::res://assets/tilesets/Maps/CINNABAR ISLAND.png<>uid://bivw2jv6x1s7l::::res://assets/tilesets/Animated/TransparentTree.png<>uid://c2bcffec8wtma::::res://assets/tilesets/Maps/ROUTE 21 (2).png<>uid://ctviighrn1v1i::::res://scenes/Player/Player.tscn<>uid://btaaispob5qld::::res://assets/tilesets/Maps/ROUTE 22.png<>uid://0eft15jdbtkl::::res://assets/tilesets/Maps/ROUTE 2.png<>uid://cch3wmq22oxpv::::res://assets/tilesets/Animated/GrassAnimated.png
+::res://scripts/::1718290498
+CharacterBase.gd::GDScript::-1::1718290498::0::1::::CharacterBase<>CharacterBody2D<>::
+FiniteStateMachine.gd::GDScript::-1::1718202704::0::1::::StateMachine<>Node<>::
+SpriteBase.gd::GDScript::-1::1718202704::0::1::::SpriteBase<>CharacterBody2D<>::
+State.gd::GDScript::-1::1718202704::0::1::::State<>Node<>::
