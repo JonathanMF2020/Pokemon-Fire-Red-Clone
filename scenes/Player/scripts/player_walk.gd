@@ -6,7 +6,6 @@ var player : PlayerMain
 # Store target position vector, whether player is currently moving between tiles.
 # Store player speed (WALK, RUN, BIKE)
 var target_pos : Vector2
-var still_moving : bool
 var player_speed : float
 
 # Grab initial target position on load
@@ -19,6 +18,7 @@ func Enter():
 func Update(delta: float):
 	# If no direction is being inputted, set to idle.
 	# Otherwise, start moving in direction as long as target position is not reached
+	print(player.dir)
 	if (!player.dir):
 		state_transition.emit(self, "PlayerIdle")
 	elif (player.dir):
@@ -48,17 +48,17 @@ func Walk(delta: float):
 	
 	# Start movement in direction if there is no collision
 	if (move_dir and !player.ray.is_colliding()):
-		if still_moving == false:
-			still_moving = true
+		if player.still_moving == false:
+			player.still_moving = true
+			if player.curr_step == "left":
+				player.curr_step = "right"
+			elif player.curr_step == "right":
+				player.curr_step = "left"
 			var tween = create_tween()
 			tween.tween_property(player, "position", 
 				player.position + move_dir * player.TILE_SIZE, player_speed)
-			tween.tween_callback(set_move_false)
+			tween.tween_callback(func(): player.still_moving = false)
 	player.move_and_slide()
-
-
-func set_move_false():
-	still_moving = false
 
 # Set moving status to false once player goes to idle state
 func Exit():
