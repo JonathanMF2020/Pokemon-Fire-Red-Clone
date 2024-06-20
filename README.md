@@ -3,7 +3,7 @@
 *Image Format:* Portable Network Graphic (PNG)  
 *Bits Per Pixel:* 24  
 *Color:* Truecolor  
-*Dimensions:* 240 x 160  
+*Dimensions:* 100 x 60  
 *Interlaced:* Yes  
 ## Prepared By
 `devabe`  
