@@ -1,10 +1,5 @@
 # Pokémon Fire Red Godot
-![Pokemon Fire Red Godot](https://github.com/devabe-code/Pokemon-Fire-Red-Clone/blob/main/docs/Logo%20copy.png)  
-*Image Format:* Portable Network Graphic (PNG)  
-*Bits Per Pixel:* 24  
-*Color:* Truecolor  
-*Dimensions:* 100 x 60  
-*Interlaced:* Yes  
+<img src="https://github.com/devabe-code/Pokemon-Fire-Red-Clone/blob/main/docs/Logo%20copy.png" width="600" height="600" />
 ## Prepared By
 `devabe`  
 [dev.code.abe@gmail.com](mailto:dev.code.abe@gmail.com)  
