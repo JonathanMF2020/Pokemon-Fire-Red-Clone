@@ -1,6 +1,7 @@
 
 # Pokémon Fire Red Godot
 
+
 ## Prepared By
 `devabe`  
 [dev.code.abe@gmail.com](mailto:dev.code.abe@gmail.com)  
@@ -99,22 +100,6 @@ These are base game mechanics from the original games that should be implemented
 
 #### Development Tools
 - (WIP)
-
----
-
-![Pokemon Fire Red Godot](path/to/image.png)  
-*Image Format:* Portable Network Graphic (PNG)  
-*Bits Per Pixel:* 24  
-*Color:* Truecolor  
-*Dimensions:* 240 x 160  
-*Interlaced:* Yes  
-
-![Pokemon Fire Red Godot](path/to/image2.png)  
-*Image Format:* Portable Network Graphic (PNG)  
-*Bits Per Pixel:* 32  
-*Color:* Truecolor with alpha  
-*Dimensions:* 2048 x 2048  
-*Interlaced:* Yes
 
 ---
 
