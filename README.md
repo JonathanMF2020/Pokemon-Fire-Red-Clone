@@ -1,6 +1,4 @@
-
 # Pokémon Fire Red Godot
-
 
 ## Prepared By
 `devabe`  
@@ -100,6 +98,22 @@ These are base game mechanics from the original games that should be implemented
 
 #### Development Tools
 - (WIP)
+
+---
+
+![Pokemon Fire Red Godot](https://github.com/devabe-code/Pokemon-Fire-Red-Clone/blob/main/docs/Logo%20copy.png)  
+*Image Format:* Portable Network Graphic (PNG)  
+*Bits Per Pixel:* 24  
+*Color:* Truecolor  
+*Dimensions:* 240 x 160  
+*Interlaced:* Yes  
+
+![Pokemon Fire Red Godot](https://github.com/yourusername/yourrepository/raw/main/path/to/yourimage2.png)  
+*Image Format:* Portable Network Graphic (PNG)  
+*Bits Per Pixel:* 32  
+*Color:* Truecolor with alpha  
+*Dimensions:* 2048 x 2048  
+*Interlaced:* Yes
 
 ---
 
